@@ -33,4 +33,4 @@ ARDUINO_LIBRARY_SRCDIRS := $(patsubst $(COMPONENT_PATH)/%,%,$(foreach LIBRARY,$(
 COMPONENT_ADD_INCLUDEDIRS := cores/esp32 variants/esp32 $(ARDUINO_LIBRARY_SRCDIRS)
 COMPONENT_PRIV_INCLUDEDIRS := cores/esp32/libb64
 COMPONENT_SRCDIRS := cores/esp32/libb64 cores/esp32 variants/esp32 $(ARDUINO_LIBRARY_SRCDIRS)
-CXXFLAGS += -fno-rtti
+#CXXFLAGS += -fno-rtti
